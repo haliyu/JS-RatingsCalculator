@@ -14,7 +14,7 @@ const collect_ratings = ()=>{
     });
 
     if (ratings.count !== 0) {
-        return ratings.average = ratings.sum / ratings.count;
+          ratings.average = ratings.sum / ratings.count;
     }
 
   return ratings;
